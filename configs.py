@@ -43,7 +43,7 @@ Fᴏʀ Mᴏʀᴇ Iɴꜰᴏ Cʟɪᴄᴋ Oɴ Hᴇʟᴘ ✅''')
     ABOUT_BOT_TEXT = os.getenv("ABOUT_TEXT", '''I ᴏɴʟʏ ꜱʜᴀʀᴇ ᴛʜᴇ ᴘᴏꜱᴛ ꜰʀᴏᴍ ᴘᴇᴏᴘʟᴇ'ꜱ ᴄʜᴀɴɴᴇʟ! ᴡʜᴏ ᴍᴀᴅᴇ ᴍᴇ ᴀᴅᴍɪɴ ɪɴ ᴛʜᴀᴛ ᴄʜᴀɴɴᴇʟ, i ᴅᴏ ɴᴏᴛ ꜱᴛᴏʀᴇ ᴀɴʏ ꜰɪʟᴇꜱ ᴏʀ ᴛᴇxᴛ ɪɴ  ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ.✅
 
 ᴅᴍ ꜰᴏʀ ᴀɴʏ Qᴜᴇʀʏ @Help_Primeflix_Cinema'')
-    ABOUT_HELP_TEXT = os.getenv("HELP_TEXT", ''' Requirements to use bot inside group!
+    ABOUT_HELP_TEXT = os.getenv("HELP_TEXT", '''Requirements to use bot inside group!
 
  Step 1 - Apko ek goup ki jarurat hogi, jisme member bhi ho, aur ek private channel ki jarurat hogi, jisme aapke saare post honge!
 
