@@ -7,8 +7,8 @@ import os
 
 
 class Config(object):
-    API_ID = int(os.getenv("API_ID", 25882792))
-    API_HASH = os.getenv("API_HASH", "846699536cd018e1b55b7ea895156f08")
+    API_ID = int(os.getenv("API_ID", 23265307))
+    API_HASH = os.getenv("API_HASH", "cc2b82ee80cabeba9a3408a6972d0ab2")
     BOT_TOKEN = os.getenv("BOT_TOKEN", "")
     BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "")
     USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "")
