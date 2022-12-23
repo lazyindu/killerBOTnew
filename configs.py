@@ -9,11 +9,11 @@ import os
 class Config(object):
     API_ID = int(os.getenv("API_ID", 25882792))
     API_HASH = os.getenv("API_HASH", "846699536cd018e1b55b7ea895156f08")
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "5905448114:AAGZaRVTWU8aX-YZr5tRkc51ZcQ9hB-AIqc")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "")
     BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "kill")
     USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "")
     CHANNEL_ID = int(os.getenv("CHANNEL_ID", -1001818441571))
-    BOT_USERNAME = os.getenv("BOT_USERNAME", "Primeflix_Cinema_Autofilter_bot")
+    BOT_USERNAME = os.getenv("BOT_USERNAME", "")
     BOT_OWNER = int(os.getenv("BOT_OWNER", 1534651884))
 #    OWNER_USERNAME = os.getenv("OWNER_USERNAME")
     BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "Primeflix_Cinema")
