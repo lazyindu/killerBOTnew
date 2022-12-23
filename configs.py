@@ -31,7 +31,7 @@ Fᴏʀ Mᴏʀᴇ Iɴꜰᴏ Cʟɪᴄᴋ Oɴ Hᴇʟᴘ ✅''')
 ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴛʜᴇʀᴇ ʏᴏᴜʀ ʟɪɴᴋꜱ,
 ꜰᴏʀ ᴍᴏʀᴇ ɪɴꜰᴏ ᴄʟɪᴄᴋ ᴏɴ ʜᴇʟᴘ ✅''')
     UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", None)
-    DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://Primeflix5557:Primeflix5557@cluster0.d0tnqb6.mongodb.net/?retryWrites=true&w=majority")
+    DATABASE_URL = os.getenv("DATABASE_URL", "")
     LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001875916506"))
     RESULTS_COUNT = int(os.getenv("RESULTS_COUNT", 5))
     BROADCAST_AS_COPY = os.getenv("BROADCAST_AS_COPY", "True")
