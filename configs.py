@@ -40,23 +40,20 @@ Fᴏʀ Mᴏʀᴇ Iɴꜰᴏ Cʟɪᴄᴋ Oɴ Hᴇʟᴘ ✅''')
     AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", 300))
     MDISK_API = os.getenv("MDISK_API", "12334")
     VERIFIED_TIME  = int(os.getenv("VERIFIED_TIME", "365"))
-    ABOUT_BOT_TEXT = os.getenv("ABOUT_TEXT", '''I ᴏɴʟʏ ꜱʜᴀʀᴇ ᴛʜᴇ ᴘᴏꜱᴛ ꜰʀᴏᴍ ᴘᴇᴏᴘʟᴇ'ꜱ ᴄʜᴀɴɴᴇʟ! ᴡʜᴏ ᴍᴀᴅᴇ ᴍᴇ ᴀᴅᴍɪɴ ɪɴ ᴛʜᴀᴛ ᴄʜᴀɴɴᴇʟ, i ᴅᴏ ɴᴏᴛ ꜱᴛᴏʀᴇ ᴀɴʏ ꜰɪʟᴇꜱ ᴏʀ ᴛᴇxᴛ ɪɴ  ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ.✅
-
-ᴅᴍ ꜰᴏʀ ᴀɴʏ Qᴜᴇʀʏ @Help_Primeflix_Cinema'')
+    ABOUT_BOT_TEXT = os.getenv("ABOUT_TEXT", '''I ᴏɴʟʏ ꜱʜᴀʀᴇ ᴛʜᴇ ᴘᴏꜱᴛ ꜰʀᴏᴍ ᴘᴇᴏᴘʟᴇ'ꜱ ᴄʜᴀɴɴᴇʟ! ᴡʜᴏ ᴍᴀᴅᴇ ᴍᴇ ᴀᴅᴍɪɴ ɪɴ ᴛʜᴀᴛ ᴄʜᴀɴɴᴇʟ, i ᴅᴏ ɴᴏᴛ ꜱᴛᴏʀᴇ ᴀɴʏ ꜰɪʟᴇꜱ ᴏʀ ᴛᴇxᴛ ɪɴ  ᴍʏ ᴅᴀᴛᴀʙᴀꜱᴇ.✅ ᴅᴍ ꜰᴏʀ ᴀɴʏ Qᴜᴇʀʏ @Help_Primeflix_Cinema''')
     ABOUT_HELP_TEXT = os.getenv("HELP_TEXT", '''Requirements to use bot inside group!
-
  Step 1 - Apko ek goup ki jarurat hogi, jisme member bhi ho, aur ek private channel ki jarurat hogi, jisme aapke saare post honge!
 
  Step 2 - Bot ko apne group aor channel ka admin bnana hoga.
                                
  Step 3 - group me "/request" type krke send krna hoga!
-fir bot ke owner apka ye request accept krr lenge. @yash_yadav99
+ fir bot ke owner apka ye request accept krr lenge. @yash_yadav99
                                
  Step 4 - Group me "/addb - private channel id" type kr ke send krna hoga.
-fir bot ke owner apka ye request accept krr lenge. @yash_yadav99
+ fir bot ke owner apka ye request accept krr lenge. @yash_yadav99
                                                         
  Step 5 - Ab aapko apne private channel me post daalni hogi.
                             
  Note : Bot Admin aapke channel me join hona chahiye,
-agr bot admin apka request accept nhi kar rhe hai to unhe personal msg karen.
- @yash_yadav99''')
+ agr bot admin apka request accept nhi kar rhe hai to unhe personal msg karen.
+  @yash_yadav99''')
