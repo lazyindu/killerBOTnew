@@ -10,7 +10,7 @@ class Config(object):
     API_ID = int(os.getenv("API_ID", 25882792))
     API_HASH = os.getenv("API_HASH", "846699536cd018e1b55b7ea895156f08")
     BOT_TOKEN = os.getenv("BOT_TOKEN", "")
-    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "kill")
+    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "")
     USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "")
     CHANNEL_ID = int(os.getenv("CHANNEL_ID", -1001818441571))
     BOT_USERNAME = os.getenv("BOT_USERNAME", "")
