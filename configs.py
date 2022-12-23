@@ -7,14 +7,14 @@ import os
 
 
 class Config(object):
-    API_ID = int(os.getenv("API_ID", 23265307))
-    API_HASH = os.getenv("API_HASH", "cc2b82ee80cabeba9a3408a6972d0ab2")
+    API_ID = int(os.getenv("API_ID", 1234))
+    API_HASH = os.getenv("API_HASH", "")
     BOT_TOKEN = os.getenv("BOT_TOKEN", "")
     BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "")
     USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "")
     CHANNEL_ID = int(os.getenv("CHANNEL_ID", -1001818441571))
-    BOT_USERNAME = os.getenv("BOT_USERNAME", "")
-    BOT_OWNER = int(os.getenv("BOT_OWNER", 1534651884))
+    BOT_USERNAME = os.getenv("BOT_USERNAME")
+    BOT_OWNER = int(os.getenv("BOT_OWNER"))
 #    OWNER_USERNAME = os.getenv("OWNER_USERNAME")
     BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "Primeflix_Cinema")
 #    GROUP_USERNAME = os.getenv("GROUP_USERNAME")
